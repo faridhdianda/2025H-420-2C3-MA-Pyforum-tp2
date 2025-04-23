@@ -1,0 +1,10 @@
+identifiant,nom_utilisateur,courriel,mot_de_passe,forums_inscrits
+1,faridh,faridh@email.com,passfaridh,"[100, 101]"
+2,chrysler,chrysler@email.com,passchrysler,"[101]"
+3,archambault,archambault@email.com,passarch,"[]"
+4,delavie,delavie@email.com,passdelavie,"[100]"
+5,esther,esther@email.com,passesther,"[102, 103]"
+6,naomi,naomi@email.com,passnaomi,"[]"
+7,ibrahim,ibrahim@email.com,passibrahim,"[100, 102]"
+8,luna,luna@email.com,passluna,"[103]"
+9,zakaria,zakaria@email.com,passzak,"[101, 103]"
