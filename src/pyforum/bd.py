@@ -39,7 +39,8 @@ class BD:
         #                ^^^^^^
         #                Vous devez ajouter les autres paramètres requis
         # TODO: Implanter la logique pour créer un forum
-        pass
+         self.forums.append(nom)    
+         
 
     def creer_publication(self, publication):
         #                       ^^^^^^^^^^^
