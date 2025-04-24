@@ -1,0 +1,49 @@
+[
+    {
+      "identifiant": 1,
+      "titre": "Présentation de PyForum",
+      "contenu": "Bienvenue sur le forum PyForum !",
+      "date_creation": "2025-04-16 14:00:00",
+      "auteur_id": 1,
+      "forum_id": 100,
+      "commentaires": []
+    },
+    {
+      "identifiant": 2,
+      "titre": "comment preparer le poulet",
+      "contenu": "Comment préparer le poulet rôti ?",
+      "date_creation": "2025-04-16 14:05:00",
+      "auteur_id": 2,
+      "forum_id": 100,
+      "commentaires": []
+    },
+    {
+      "identifiant": 3,
+      "titre": "comment avoir les skills de neymar",
+      "contenu": "Comment devenir un bon joueur de foot ?",
+      "date_creation": "2025-04-16 14:10:00",
+      "auteur_id": 3,
+      "forum_id": 101,
+      "commentaires": []
+    },
+    {
+      "identifiant": 4,
+      "titre": " pourquoir choisir le barca et pas le real",
+      "contenu": "Pourquoi choisir le FC Barcelone plutôt que le Real Madrid ?",
+      "date_creation": "2025-04-16 14:15:00",
+      "auteur_id": 4,
+      "forum_id": 102,
+      "commentaires": []
+    },
+    {
+      "identifiant": 5,
+      "titre": "La bonne facon de faire le tour du monde avec un ballon",
+      "contenu": "Comment faire le tour du monde avec un ballon ?",
+      "date_creation": "2025-04-16 14:20:00",
+      "auteur_id": 5,
+      "forum_id": 103,
+      "commentaires": []
+    }
+     
+]     
+  

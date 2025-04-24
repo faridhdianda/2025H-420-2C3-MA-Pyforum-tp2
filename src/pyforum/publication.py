@@ -1,4 +1,5 @@
 from datetime import datetime
+import json
 
 class Publication:
     def __init__(self, identifiant, titre, contenu, date_creation, auteur_id, forum_id, commentaires=None):
@@ -19,25 +20,7 @@ class Publication:
                 f"forum={self.forum_id}, date='{self.date_creation}', "
                 f"nb_commentaires={len(self.commentaires)})")
 
-    def to_dict(self):
-        return {
-            "identifiant": self.identifiant,
-            "titre": self.titre,
-            "contenu": self.contenu,
-            "date_creation": self.date_creation,
-            "auteur_id": self.auteur_id,
-            "forum_id": self.forum_id,
-            "commentaires": self.commentaires
-        }
 
-    @classmethod
-    def from_dict(cls, data):
-        return cls(
-            identifiant=data["identifiant"],
-            titre=data["titre"],
-            contenu=data["contenu"],
-            date_creation=data["date_creation"],
-            auteur_id=data["auteur_id"],
-            forum_id=data["forum_id"],
-            commentaires=data.get("commentaires", [])
-        )
+    with open("src/pyforum/data/publicatio.json", "r", encoding="utf-8") as file:
+        json.load(file)
+
